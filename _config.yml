@@ -13,16 +13,44 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Sanjoy Roy
+title_bn: সঞ্জয় রায়
+email: info@sanjoyroy.com
+
+philosophy_bn: > # this means to ignore newlines until "philosophy:"
+ “যদি কেউ দর্শনের একটা সূত্রও না পাঠ করে, যদি সে ঈশ্বরের অস্তিত্বেই না বিশ্বাস করে, 
+  এবং যদি সারা জীবনে একবারও ঈশ্বরের আরাধনা না করে, তবু শুভ কর্মসমূহের সরলক্ষমতা তাকে 
+  সেই অবস্থায় নিয়ে যেতে পারে যেখানে পরের জন্য সে  তার জীবন ও অন্য সব কিছুই 
+  উৎসর্গ করতে প্রস্তুত হবে । এক্ষেত্রে একজন ধর্মপরায়ণ ব্যক্তি তার আরাধনার মাধ্যমে আর 
+  একজন দার্শনিক তার জ্ঞানের জন্য যে বিন্দুতে পৌঁছবে সেও সেই বিন্দুতেই পৌঁছতে সক্ষম । 
+  সুতরাং তোমরা নিশ্চয় বুঝতে পারছ যে দার্শনিক, কর্মী ও ভক্ত সকলে একই বিন্দুতে মিলিত হয়; 
+  আর সেই বিন্দুই হচ্ছে আত্মোৎসর্গীকৃত হওয়া।”
+  --স্বামী বিবেকানন্দ, কর্মযোগ, ষষ্ঠ অধ্যায়, প্যারা ৮
+philosophy: > # this means to ignore newlines until "description:"
+  “Although a man has not studied a single system of philosophy, 
+  although he does not believe in any God, and never has believed, 
+  although he has not prayed even once in his whole life, 
+  if the simple power of good actions has brought him to 
+  that state where he is ready to give up his life and 
+  all else for others, he has arrived at the same point to 
+  which the religious man will come through his prayers and 
+  the philosopher through his knowledge; and so you may find 
+  that the philosopher, the worker, and the devotee, 
+  all meet at one point, that one point being self-abnegation.”
+  --Swami Vivekananda, Karma Yoga 6.8
+description: > # this means to ignore newlines until "description_bn:"
+  My name is Sanjoy Roy. I am based in Kolkata, India. I am a 
+  Microsoft Certified Information Technology Consultant and 
+  an Entrepreneur specialised in Health Informatics with 19 years 
+  of expertise in Healthcare and Education Domain. I have keen 
+  interest in Technology, Travelling, Religion, History, 
+  Politics, Social Systems, Education, Rural Development etc.
+description_bn: > # this means to ignore newlines until "baseurl:"
+  সঞ্জয় রায় কোলকাতা-কেন্দ্রিক একজন মাইক্রোসফট সার্টিফায়েড ইনফরমেশন টেকনোলজিস্ট ।  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: sanjoyr
+github_username:  sanjoyr
 
 # Build settings
 markdown: kramdown

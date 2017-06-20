@@ -1,0 +1,31 @@
+{% include base.html %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ site.title_bn }}</title>
+        {% include head.html %}
+        <meta name="description" content="{{ site.aboutus_bn}}">
+        
+    </head>
+    <body>
+
+        {% include nav-bn.html %}
+        {% include banner-bn.html %}
+
+        <div class="section">
+            <div class="container">
+                 <div class="row"> 
+                    <div class="title-area">
+                        <h2>{{ page.page-caption }}</h2>
+                        <div class="separator separator-danger">✻</div>
+                        <div class="left-aligned-text">{{ content }}</div> 
+                     </div>
+                </div>                         
+            </div>
+        </div>
+
+        {% include footer-bn.html %}
+    </body>
+    {% include js.html %}
+</html>

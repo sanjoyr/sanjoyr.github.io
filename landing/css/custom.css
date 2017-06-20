@@ -1,0 +1,67 @@
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+
+
+.left-aligned-text{
+    text-align: center;
+}
+
+/* very small mobile */
+.ky-coverphoto{
+    background-image: url('../img/coverphoto.png');
+}
+
+/* mobile */
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .ky-coverphoto{
+        background-image: url('../img/coverphoto-m.png');
+    }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 995px){
+    .ky-coverphoto{
+        background-image: url('../img/coverphoto-t.png');
+    }
+    .left-aligned-text{
+        text-align: left;
+    }
+
+}
+
+/* desktop */
+@media screen and (min-width: 996px) and (max-width: 1199px){
+    .ky-coverphoto{
+        background-image: url('../img/coverphoto-d.png');
+    }
+    .left-aligned-text{
+        text-align: left;
+    }
+}
+
+/* retina display */
+@media screen and (min-width: 1200px){
+    .ky-coverphoto{
+        background-image: url('../img/coverphoto-r.png');
+    }
+    .left-aligned-text{
+        text-align: left;
+    }
+
+}
+

@@ -1,0 +1,51 @@
+{% include base.html %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ site.title_bn }}</title>
+        {% include head.html %}
+    </head>
+    <body>
+
+        {% include nav-bn.html %}
+        {% include banner-bn.html %}
+
+        <div class="section">
+            <div class="container">
+                 <div class="row"> 
+                    <div class="title-area">
+                        <h2>{{ page.page-caption }}</h2>
+                        <div class="separator separator-danger">✻</div>
+                        <h1><center>এই পেজটি এখনো অসম্পূর্ণ!</center></h1>
+                        <p>সময়াভাবে আমরা এখনো পুরোপুরি কাজটি সারতে পারি নি। আপনি চাইলে আমাদের সহযোগিতা করতে পারেন। আপনি আমাদের কন্টেন্ট দিতে পারেন, তাহলে আমরা আপলোড করে দেবো। উৎসাহী হলে অামাদের সঙ্গে <a href="/bn/about/contact.html">যোগাযোগ করুন।</a></p>
+                     </div>
+                 </div>          
+        </div>
+        
+        <div class="section">
+            <div class="container">
+                 <div class="row"> 
+                    <div class="title-area">
+                        <h2>আমাদের কথা</h2>
+                        <div class="separator separator-danger">✻</div>
+                        <p class="description">{{ site.aboutus_bn }}</p>
+                     </div>
+                </div> 
+                <div class="row"> 
+                    <div class="title-area">
+                        <h2>আমাদের দর্শন</h2>
+                        <div class="separator separator-danger">✻</div>
+                        <blockquote>
+                            <p class="description">{{ site.philosophy_bn }}</p>
+                        </blockquote>                     
+                     </div>
+                </div> 
+
+            </div>
+         </div>
+
+        {% include footer-bn.html %}
+    </body>
+    {% include js.html %}
+</html>
