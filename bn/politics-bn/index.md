@@ -3,6 +3,6 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default-bn
-page-caption: প্রযুক্তি ও ভ্রমণ ব্লগ
-category-filter: bn 
+page-caption: রাজনৈতিক প্রবন্ধ
+category-filter: politics-bn 
 ---

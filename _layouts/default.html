@@ -3,9 +3,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>{{ site.title_bn }}</title>
+        <title>{{ site.title }}</title>
         {% include head.html %}
-        <meta name="description" content="{{ site.description_bn}}">      
+        <meta name="description" content="{{ site.description}}">      
     </head>
 
     <body>
@@ -15,21 +15,21 @@
 					<div id="main">
 						<div class="inner">
 							<!-- Header -->
-								{% include header-bn.html %}
+								{% include header.html %}
 
 							<!-- Banner Latest Article-->
 								<section id="banner">									
 									{% for post in site.categories[page.category-filter] %}
 										<div class="content">
 											<header>
-												<h1>সর্বশেষ পোস্ট<br /> - {{ site.title_bn }}</h1>
+												<h1>Latest Article<br /> by {{ site.title }}</h1>
 												<p>{{ post.title }}</p>
 											</header>
 
 											<p>{{ post.excerpt }}</p>
 
 											<ul class="actions">
-												<li><a href="{{ post.url }}" class="button big">বিস্তারিত</a></li>
+												<li><a href="{{ post.url }}" class="button big">More</a></li>
 											</ul>
 										</div>
 
@@ -44,7 +44,7 @@
 							<!-- Section Stared Article-->
 								<section>
 									<header class="major">
-										<h2>বিশেষ পোস্ট</h2>
+										<h2>Featured Articles</h2>
 									</header>
 
 									<div class="features">
@@ -72,7 +72,7 @@
 							<!-- Section all articles-->
 								<section>
 									<header class="major">
-										<h2>পোস্ট</h2>
+										<h2>Articles</h2>
 									</header>
 
 									<div class="posts">
@@ -84,7 +84,7 @@
 												<p>{{ post.excerpt | truncate: 400 }}</p>
 
 												<ul class="actions">
-													<li><a href="{{ post.url }}" class="button">বিস্তারিত</a></li>
+													<li><a href="{{ post.url }}" class="button">More</a></li>
 												</ul>
 											</article>
 										{% endfor %}
@@ -94,7 +94,7 @@
 					</div>
 
 				<!-- Sidebar -->
-                    {% include sidebar-bn.html %}
+                    {% include sidebar.html %}
 
 			</div>
 

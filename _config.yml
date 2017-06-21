@@ -40,10 +40,10 @@ philosophy: > # this means to ignore newlines until "description:"
   --Swami Vivekananda, Karma Yoga 6.8
 description: > # this means to ignore newlines until "description_bn:"
   My name is Sanjoy Roy. I am based in Kolkata, India. I am a 
-  Microsoft Certified Information Technology Consultant and 
+  Microsoft Certified Information Technologist and 
   an Entrepreneur specialised in Health Informatics with 19 years 
   of expertise in Healthcare and Education Domain. I have keen 
-  interest in Technology, Travelling, Religion, History, 
+  interest in Technology, Travelling, History, Mythology,
   Politics, Social Systems, Education, Rural Development etc.
 description_bn: > # this means to ignore newlines until "baseurl:"
   সঞ্জয় রায় কোলকাতা-কেন্দ্রিক একজন মাইক্রোসফট সার্টিফায়েড ইনফরমেশন টেকনোলজিস্ট ।  

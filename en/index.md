@@ -2,60 +2,7 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default-en
-page-caption: Background to KarmaYoga 
+layout: default
+page-caption: Technology & Travel Blog
+category-filter: en 
 ---
-
-
-*What is the aim of living being?* Freedom of Soul!
-
-#### Why Freedom?
-
-Every living being is having an eternal "Atma" (Soul) inside it! When it takes birth, the soul takes up its body and it starts to live. Living being starts with childhood reaches adolescences, adulthood and after crossing old age, finally meets death. With death, the soul leaves the substance body and travels to heaven or hell according to the “Karma” or deeds done by the living being in one's lifetime. The cycle of birth is unending and again starts after the soul has reaped the fruits of its good deeds or paid the price for its bad deeds in the two antithetically spectral worlds of Heaven and Hell. The cycle of birth and death is infinite, the soul reincarnates unlimited times in one or the other forms (insects, animals, birds, human beings etc.). 
-
-According to Bhagavat Gita about "Atma", 
->na jāyate mriyate vā kadācin / 
-nāyaṃ bhūtvā bhavitā vā na bhūyaḥ / 
-ajo nityaḥ śāśvatoyaṃ purāṇo / 
-na hanyate hanyamāne śarīre || (Gita 2.20)
-
-Means :- This in never born, nor does It die. It is not that not having been It again comes into being. (Or according to another view: It is not that having been It again ceases to be). This is unborn, eternal, changeless, ever-Itself. It is not killed when the body is killed. 
-
-#### How to achieve Freedom?
- 
-The only way to liberate oneself from the cycle of death and birth is attainment of “Moksha” or Salvation. Salvation is the complete state of bliss when the soul becomes one with the Supreme God and unshackles itself from the cycle of birth and death.
-
-#### Path to Moksha?
-
-There are 3 paths to attain “Moksha” or Salvation: 1) Jyan Yoga, 2) Bhakti Yoga and 3) Karma Yoga.
-
-1. *Jyan Yoga (The Yoga of wisdom):*  Dedicating one’s life to attain Knowledge and enlightening oneself on the deep philosophies of the world. It is a juncture when the Being becomes one with Knowledge by realizing that one’s real self is Sat-Chit-Anand (love - knowledge - bliss) & is eternal. People with philosophical mindset, who are comfortable in gathering Knowledge, can choose this path.
-
-2. *Bhakti Yoga (The Yoga of devotion):* Bhakti yoga is a spiritual path focused on the cultivation of love and devotion towards God. It has been defined as a practice of devotion toward God, solely motivated by the sincere, loving desire to please God, rather than the hope of divine reward or the fear of divine punishment.
-
-3. *Karma Yoga (The Yoga of work):* The knowledge of the secret of work. “Work incessantly, but give up all attachment to work.” Do not identify yourself with anything. Hold your mind free. (Swami Vivekananda, Karma Yoga 7.10)
-
-According to Bhagavat Gita,
->karmaṇy evādhikāras te mā phaleṣu kadācana / 
-mā karmaphalahetur bhūr mā te saṅgostv akarmaṇi || (Gita 2.47)
-
-Means:- Thy right is to work only; but never to the fruits thereof. Be thou not the producer of the fruits of (thy) actions; neither let thy attachment be towards inaction.
-
-#### KarmaYoga is our Path
-
-Our path is Karma Yoga! We want to achieve Self-Abnegation through Nishkam Karma! Because, we like to work and want to do good for others!
-
-
-#### Our Philosophy
-
-{{ site.philosophy }}
-
-
-#### But Any of the 3 Paths is OK
-
-One can follow more than one path to attain “Moksha”, there is no restriction! It is named based on which path you choose more. 'The Yogas of work, of wisdom, and of devotion are all capable of serving as direct and independent means for the attainment of Moksha. “Fools alone say that work and philosophy are different, not the learned.” The learned know that, though apparently different from each other, they at last lead to the same goal of human. perfection.' (Swami Vivekananda, Karma Yoga 6.25)
-
-### Who We Are
-
-{{ site.aboutus }}
-
