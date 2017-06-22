@@ -1,9 +1,9 @@
 ---
 layout: post-bn
 title:  "সব ঠাঁই মোর ঘর আছে"
-title-image: "/assets/img/pic10.jpg"
+title-image: "http://cdn.karmayoga.org.in/sr/tagore/1.jpg"
 ---
-"সব ঠাঁই মোর ঘর আছে , আমি
+> "সব ঠাঁই মোর ঘর আছে , আমি
 সেই ঘর মরি খুঁজিয়া ।
 দেশে দেশে মোর দেশ আছে , আমি
 সেই দেশ লব যুঝিয়া ।

@@ -2,7 +2,7 @@
 layout: post-bn
 title:  "আমি চঞ্চল হে "
 tags: star
-title-image: "/assets/img/pic10.jpg"
+title-image: "http://cdn.karmayoga.org.in/sr/tagore/1.jpg"
 ---
 > "আমি চঞ্চল হে ,
 আমি সুদূরের পিয়াসি ।
