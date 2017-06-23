@@ -23,11 +23,10 @@ OTDC Panthanivas at Panchalingeswar (+91-6782-273005).
 
 ![The Lingas](http://cdn.karmayoga.org.in/sr/travel/balasore/3.JPG){:class="image main"}
 
-![The Panoramic view](http://cdn.karmayoga.org.in/sr/travel/balasore/4.JPG)
+![The Panoramic view](http://cdn.karmayoga.org.in/sr/travel/balasore/4.JPG){:class="image main"}
 
-![The Lingas](http://cdn.karmayoga.org.in/sr/travel/balasore/5.JPG)
-
-![The Lingas](http://cdn.karmayoga.org.in/sr/travel/balasore/6.JPG)
+![The Lingas](http://cdn.karmayoga.org.in/sr/travel/balasore/5.JPG){:class="image main"}
+![The Lingas](http://cdn.karmayoga.org.in/sr/travel/balasore/6.JPG){:class="image main"}
 
 
 ### Emami Jagannath Temple
