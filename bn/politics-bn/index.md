@@ -1,8 +1,8 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default-bn
-page-caption: রাজনৈতিক প্রবন্ধ
-category-filter: politics-bn 
+layout: category
+category-filter: politics-bn
+lang: bn 
+title: রাজনৈতিক প্রবন্ধ
+intro:
+    আমি রাজনীতিতে আগ্রহী। আমার ব্লগের এই অংশে আমি রাজনীতি নিয়ে আলোচনার চেষ্টা করেছি। আমি সব মতকেই সন্মান করি এবং কোনও অন্ধ বিশ্বাসকে সমর্থন করি না।
 ---

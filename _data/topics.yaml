@@ -1,0 +1,56 @@
+- title: Technology
+  name: tech
+  iconname: fas fa-laptop
+  desturl: /en/tech/
+
+- title: Travelling
+  name: travel
+  iconname: fas fa-plane
+  desturl: /en/travel/
+
+- title: Spirituality
+  name: spiritual
+  iconname: fas fa-dove
+  desturl: /en/spiritual/
+
+- title: Politics
+  name: politics
+  iconname: fas fa-bullhorn
+  desturl: /en/politics/
+  
+- title: Misc
+  name: misc
+  iconname: fas fa-random
+  desturl: /en/misc/
+
+- title: প্রযুক্তি
+  name: tech-bn
+  iconname: fas fa-laptop
+  desturl: /bn/tech-bn/
+
+- title: ভ্রমণ
+  name: travel-bn
+  iconname: fas fa-plane
+  desturl: /bn/travel-bn/
+
+- title: ধর্ম
+  name: spiritual-bn
+  iconname: fas fa-dove
+  desturl: /bn/spiritual-bn/
+
+- title: রাজনীতি
+  name: politics-bn
+  iconname: fas fa-bullhorn
+  desturl: /bn/politics-bn/
+ 
+- title: রবীন্দ্রনাথ
+  name: tagore-bn
+  iconname: fas fa-box-open
+  desturl: /bn/tagore-bn/
+  
+- title: বিবিধ প্রবন্ধ
+  name: misc-bn
+  iconname: fas fa-random
+  desturl: /bn/misc-bn/
+
+  

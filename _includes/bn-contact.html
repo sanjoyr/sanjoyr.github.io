@@ -1,0 +1,65 @@
+<section id="contact" class="post-container">
+        <div class="container">
+          <div class="section-header">
+            <h1>যোগাযোগ করুন</h1><br/>
+            <h2>বিনামূল্যে সহায়তা</h2>
+            <p>আপনি যেকোনো অ-বাণিজ্যিক প্রযুক্তিগত সহায়তা / সমস্যা / ধারণার জন্য আমার সাথে যোগাযোগ করতে পারেন। অাপনার সমস্যার সমাধান সম্পূর্ণ বিনামূল্যে করে দিতে পারলে আমি খুব খুশি হবো। তবে যেহেতু আমাকে বেঁচে থাকার জন্য অন্যান্য কাজ করতে হয়, আপনাকে উত্তর দিতে কয়েকদিন সময় লাগতে পারে!
+            <h2>ব্যবসায়িক কনসালটেনশন</h2>
+            <p>আমি পেশাদারী পরামর্শ দিয়ে থাকি। আপনি যেকোনো ধরনের অংশীদারিত্বের সম্ভাবনার জন্য আমার সাথে যোগাযোগ করতে পারেন।</p>
+      </div>
+      
+          <div class="row contact-info">
+            <div class="col-md-4">
+              <div class="contact-address">
+                <i class="fas fa-map-marker"></i>
+                <h3>ঠিকানা</h3>
+                <address>কলকাতা, ভারত</address>
+              </div>
+            </div>
+      
+            <div class="col-md-4">
+              <div class="contact-phone">
+                <i class="fas fa-phone"></i>
+                <h3>ফোন নম্বর</h3>
+                <p><a href="tel:{{ site.phone }}">{{ site.phone }}</a></p>
+              </div>
+            </div>
+      
+            <div class="col-md-4">
+              <div class="contact-email">
+                <i class="fas fa-envelope"></i>
+                <h3>ইমেইল</h3>
+                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="form">
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="আপনার নাম" data-rule="minlen:4" data-msg="দয়া করে কমপক্ষে 4 টি অক্ষর লিখুন" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="আপনার ইমেইল" data-rule="email" data-msg="একটি বৈধ ইমেইল লিখুন" />
+                  <div class="validation"></div>
+                </div>
+              </div>
+      
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="দয়া করে আমাদের জন্য কিছু লিখুন" placeholder="মন্তব্য"></textarea>
+                <div class="validation"></div>
+              </div>
+      
+              <input type="hidden" name="subject" id="subject" value="{{ site.title-bn }}"/>
+              <div class="text-center"><button type="submit">যোগাযোগ করুন</button></div>
+            </form>
+            <div id="sendmessage">আপনার বার্তাটি পাঠানো হয়েছে। ধন্যবাদ!</div>
+            <div id="errormessage"></div>
+          </div>
+      
+        </div>
+      </section>
+      
+      

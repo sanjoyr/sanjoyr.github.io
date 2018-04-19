@@ -1,0 +1,20 @@
+- url: /
+  title: Landing Page
+  title-bn: প্রথম পাতা
+  
+- url: /en/
+  title: My Blog in English 
+  title-bn: ইংরেজিতে আমার ব্লগ
+
+- url: /bn/
+  title: My Blog in Bengali 
+  title-bn: বাংলাতে আমার ব্লগ
+
+- url: https://karmayoga.wara.in
+  title: My Philosophy
+  title-bn: আমার দর্শন
+
+- url: https://foundation.wara.in
+  title: KarmaYoga Foundation
+  title-bn: কর্মযোগ ফাউন্ডেশন
+

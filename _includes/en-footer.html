@@ -1,0 +1,55 @@
+<footer id="footer">
+		<div class="footer-top">
+		  <div class="container">
+				<div class="row">	
+					<div class="col-lg-3 col-md-6 footer-info">
+                            <h3>{{ site.title }}</h3>
+                            <p>{{ site.description }}</p>
+                        </div>
+	
+					<div class="col-lg-3 col-md-6 footer-links">
+						<h4>Useful Links</h4>
+						<ul>
+								{% for link in site.data.links %}
+								<li><i class="fas fa-angle-right"></i> <a href="{{ link.url }}">{{ link.title }}</a></li>
+								{% endfor %}
+						</ul>
+					</div>
+	
+					<div class="col-lg-3 col-md-6 footer-contact">
+						<h4>Contact Me</h4>
+						<p>
+							<strong>Email:</strong> {{ site.email }}
+						</p>
+                            <p>
+                                    <strong>Phone:</strong> {{ site.phone }}
+                            </p>
+                            <p>
+                                    <strong>Social Network:</strong>
+                            </p>
+    
+
+						<div class="social-links">
+								{% for social in site.data.socials %}
+									<a href="{{ social.url }}" class="{{ social.title }}"><i class="fab fa-{{ social.title }}"></i></a>
+								{% endfor %}
+						</div>	
+			  	</div>
+	
+					<div class="col-lg-3 col-md-6 footer-newsletter">
+						<h4>KarmaYoga Newsletter</h4>
+						<p>{{ site.newsletter1 }}</p>
+						<p>{{ site.newsletter2 }}</p>
+
+						{% include aaa-subscribe.html %}
+					</div>	
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="short-text copyright">
+                {{ site.tagline }}<br/>&copy; Sanjoy Roy. All rights reserved.
+            </div>
+	</div>
+</footer>

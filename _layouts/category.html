@@ -1,0 +1,127 @@
+{% include aaa-base.html %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    {% include aaa-head.html %}
+</head>
+
+<body>
+    {% if page.lang == 'bn'%}
+    {% include bn-nav.html %}
+    {% else %}
+    {% include en-nav.html %}
+    {% endif %}
+
+    <main role="main">
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-4">{{ page.title }}</h1>
+
+                {% if page.lang == 'bn'%}
+                <p class="short-text">{{ site.description-bn }}<br/><br/>{{ page.intro }}</p>
+                {% else %}
+                <p class="short-text">{{ site.description }}<br/><br/>{{ page.intro }}</p>
+                {% endif %}
+
+                <p>
+                    {% if page.lang == 'bn'%}
+                    <a class="btn btn-primary btn-lg" href="#postdetail" role="button">{{ site.readmore-title-bn }} &raquo;</a>
+                    {% else %}
+                    <a class="btn btn-primary btn-lg" href="#postdetail" role="button">{{ site.readmore-title }} &raquo;</a>
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+
+        <section id="postdetail" class="post-container">
+            {% for post in site.categories[page.category-filter] %} {% if post.tags contains 'star' %}
+            <article>
+                <h1>{{ post.title }}</h1>
+                <div>{{ post.content }}</div>
+            </article>
+            {% break %} {% endif %} {% endfor %}
+        </section>
+
+        <hr class="featurette-divider">
+        <section id="products" class="post-container">
+            {% if page.lang == 'bn'%}
+            <h1>{{ site.recent-title-bn }}</h1>
+            {% else %}
+            <h1>{{ site.recent-title }}</h1>
+            {% endif %}
+            
+                <div class="features">
+                    <div class="container">
+                        <div class="row">
+                            {% for post in site.categories[page.category-filter] limit:10 %}
+
+                            {% assign icon = 'fas fa-edit' %}
+                            {% for postcat in post.categories %}
+                            {% for toipic in site.data.topics %}
+                            {% if postcat == toipic.name %}
+                            {% assign icon = toipic.iconname %}
+                            {% break %}
+                            {% endif %}
+                            {% endfor %}
+                            {% endfor %}
+
+                            <div class="col-md-6 box">
+                                <div class="icon">
+                                    <i class="{{ icon }}"></i>
+                                </div>
+                                <h4 class="title">
+                                    <a href="{{ post.url }}">{{ post.title }}</a>
+                                </h4>
+                                <p class="description">{{ post.content | truncate: 200 | strip_html }}</p>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <hr class="featurette-divider">
+        <section id="archived" class="post-container">
+            {% if page.lang == 'bn'%}
+            <h1>{{ site.archived-title-bn }}</h1>
+            {% else %}
+            <h1>{{ site.archived-title }}</h1>
+            {% endif %}
+
+            <br/><br/>
+
+            {% for post in site.categories[page.category-filter] %}
+
+            {% assign currentDate = post.date | date: "%Y" %}
+            {% if currentDate != myDate %}
+                {% unless forloop.first %}</ul>{% endunless %}
+                <h2>{{ currentDate }}</h2>
+                <ul>
+                {% assign myDate = currentDate %}
+            {% endif %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% if forloop.last %}</ul>{% endif %}
+            {% endfor %}
+        </section>
+
+        <hr class="featurette-divider">
+        {% if page.lang == 'bn'%}
+        {% include bn-contact.html %}
+        {% else %}
+        {% include en-contact.html %}
+        {% endif %}
+
+        {% if page.lang == 'bn'%}
+        {% include bn-footer.html %}
+        {% else %}
+        {% include en-footer.html %}
+        {% endif %}
+    
+    </main>
+
+    {% include aaa-js.html %} {% include google-analytics.html %}
+</body>
+
+</html>

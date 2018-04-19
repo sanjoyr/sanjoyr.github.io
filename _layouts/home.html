@@ -1,0 +1,50 @@
+{% include aaa-base.html %}
+<!doctype html>
+<html lang="en">
+
+<head>
+        {% include aaa-head.html %}
+        <!-- Custom styles for this template -->
+    <link href="{{ base }}/assets/cover.css" rel="stylesheet">
+</head>
+
+<body class="text-center cover-photo-1">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h3>
+                    <strong>SANJOY ROY</strong>
+                </h3>
+            </div>
+        </header>
+
+        <main role="main" class="inner cover">
+            <p class="lead">
+                <strong>Technologist and Entrepreneur</strong>
+                <br/> "Where the mind is without fear..."</p>
+        </main>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="/en" class="btn btn-lg btn-secondary">Visit My English Blog</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="/bn" class="btn btn-lg btn-secondary">Visit My Bangla Blog</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://karmayoga.wara.in/" class="btn btn-lg btn-secondary">Know My Philosophy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    {% include aaa-js.html %} 
+    {% include google-analytics.html %}
+</body>
+
+</html>

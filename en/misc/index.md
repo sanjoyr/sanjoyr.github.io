@@ -1,8 +1,7 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default
-page-caption: Miscellaneous Articles
+layout: category
 category-filter: misc 
+title: Misc Topics
+intro:
+    This part of my blog contains my articles on different subjects which I have some interest. I share my thought on any subjects I feel interested. 
 ---

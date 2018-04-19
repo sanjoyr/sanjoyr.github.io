@@ -1,8 +1,8 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default-bn
-page-caption: বিবিধ প্রবন্ধ
-category-filter: misc-bn 
+layout: category
+category-filter: misc-bn
+lang: bn 
+title: বিবিধ প্রবন্ধ
+intro:
+    আমার ব্লগের এই অংশে আমি বিভিন্ন বিষয়ের উপর আলোচনা করেছি, যা অন্য বিভাগে যায় না - কারন আমার অজস্র বিষয়ে আগ্রহ রয়েছে।
 ---

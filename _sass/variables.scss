@@ -1,0 +1,47 @@
+$color-primary: #8000ff;
+$color-link: blue;
+$color-hover: green;
+$color-back: #E0E0E0;
+$color-front: black;
+
+$brand-color-main: #7D3C98;
+$brand-color-other: #C0392B;
+
+$font-logo: 'Cinzel Decorative', cursive;
+
+// for latin only
+$font-headline: 'Quattrocento', serif;
+$font-paragraph: 'Libre Baskerville', serif;
+
+// for mutli language fonts
+$multi-font-headline: 'Quattrocento', serif;
+$multi-font-paragraph: 'Roboto', sans-serif;
+
+$transition-duration: 0.5s;
+
+$font-size-logo: 1.2em;
+$font-size-headline: 2.5em;
+$font-size-short: 1.5em;
+$font-size-long: 1em;
+
+
+$padding-top-for-fixed-menu: 5em;
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+$media-min-width-sm: 576px;
+
+// Medium devices (tablets, 768px and up)
+$media-min-width-md: 768px;
+
+// Large devices (desktops, 992px and up)
+$media-min-width-lg: 992px;
+
+// Extra large devices (large desktops, 1200px and up)
+$media-min-width-xl: 1200px;
+
+$media-max-width-lowest-potrait: 767px;
+
+$url-preloader: "../img/preloader.gif";

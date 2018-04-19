@@ -1,8 +1,7 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default
-page-caption: Political Articles
+layout: category
 category-filter: politics 
+title: Political Blog
+intro:
+    I have keen interest on Politics. This part of my blog contains my thought on politics. I am open to any ideas but I do not support any blind beliefs on anything.
 ---

@@ -1,0 +1,66 @@
+<section id="contact" class="post-container">
+  <div class="container">
+    <div class="section-header">
+      <h1>Get in touch</h1><br/>
+
+    <h3>FREE SUPPORT</h3>
+    <p>You can contact me for any kind of non-commercial technical support/ issues / ideas. I am happy to help you to find out the solution, this service will be completely free of cost.  Since I have to do something else for survival, it may take few days to reply you!</p>
+
+    <h3>BUSINESS CONSULTATION</h3>
+    <p>I am available for paid professional consultation. You can contact me to explore possibilities of partnership of any form.</p>
+</div>
+
+    <div class="row contact-info">
+      <div class="col-md-4">
+        <div class="contact-address">
+          <i class="fas fa-map-marker"></i>
+          <h3>Address</h3>
+          <address>Kolkata, India</address>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="contact-phone">
+          <i class="fas fa-phone"></i>
+          <h3>Phone Number</h3>
+          <p><a href="tel:{{ site.phone }}">{{ site.phone }}</a></p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="contact-email">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="form">
+      <form action="" method="post" role="form" class="contactForm">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+            <div class="validation"></div>
+          </div>
+          <div class="form-group col-md-6">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+            <div class="validation"></div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+          <div class="validation"></div>
+        </div>
+
+        <input type="hidden" name="subject" id="subject" value="{{ site.title }}"/>
+        <div class="text-center"><button type="submit">Send Message</button></div>
+      </form>
+      <div id="sendmessage">Your message has been sent. Thank you!</div>
+      <div id="errormessage"></div>
+    </div>
+
+  </div>
+</section>
+

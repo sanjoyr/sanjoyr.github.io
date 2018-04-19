@@ -14,43 +14,59 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Sanjoy Roy
-title_bn: সঞ্জয় রায়
+title-bn: সঞ্জয় রায়
 email: info@sanjoyroy.com
+phone: +91-9432500000
 
-philosophy_bn: > # this means to ignore newlines until "philosophy:"
- “যদি কেউ দর্শনের একটা সূত্রও না পাঠ করে, যদি সে ঈশ্বরের অস্তিত্বেই না বিশ্বাস করে, 
-  এবং যদি সারা জীবনে একবারও ঈশ্বরের আরাধনা না করে, তবু শুভ কর্মসমূহের সরলক্ষমতা তাকে 
-  সেই অবস্থায় নিয়ে যেতে পারে যেখানে পরের জন্য সে  তার জীবন ও অন্য সব কিছুই 
-  উৎসর্গ করতে প্রস্তুত হবে । এক্ষেত্রে একজন ধর্মপরায়ণ ব্যক্তি তার আরাধনার মাধ্যমে আর 
-  একজন দার্শনিক তার জ্ঞানের জন্য যে বিন্দুতে পৌঁছবে সেও সেই বিন্দুতেই পৌঁছতে সক্ষম । 
-  সুতরাং তোমরা নিশ্চয় বুঝতে পারছ যে দার্শনিক, কর্মী ও ভক্ত সকলে একই বিন্দুতে মিলিত হয়; 
-  আর সেই বিন্দুই হচ্ছে আত্মোৎসর্গীকৃত হওয়া।”
-  --স্বামী বিবেকানন্দ, কর্মযোগ, ষষ্ঠ অধ্যায়, প্যারা ৮
-philosophy: > # this means to ignore newlines until "description:"
-  “Although a man has not studied a single system of philosophy, 
-  although he does not believe in any God, and never has believed, 
-  although he has not prayed even once in his whole life, 
-  if the simple power of good actions has brought him to 
-  that state where he is ready to give up his life and 
-  all else for others, he has arrived at the same point to 
-  which the religious man will come through his prayers and 
-  the philosopher through his knowledge; and so you may find 
-  that the philosopher, the worker, and the devotee, 
-  all meet at one point, that one point being self-abnegation.”
-  --Swami Vivekananda, Karma Yoga 6.8
-description: > # this means to ignore newlines until "description_bn:"
+tagline: 'Technologist and Entrepreneur: "Where the mind is without fear and the head is held high..."'
+tagline-bn: 'প্রযুক্তিবিদ এবং উদ্যোক্তা: "চিত্ত যেথা ভয়শূন্য, উচ্চ যেথা শির,..."'
+
+recent-title: Recent Posts
+recent-title-bn: সাম্প্রতিক পোস্ট
+archived-title: Archived Posts
+archived-title-bn: আর্কাইভ পোস্ট
+readmore-title: Read More
+readmore-title-bn: বিস্তারিত
+
+
+keywords1: >- # this means to ignore newlines until "keywords2:"
   My name is Sanjoy Roy. I am based in Kolkata, India. I am a 
   Microsoft Certified Information Technologist and 
   an Entrepreneur specialised in Health Informatics with 19 years 
   of expertise in Healthcare and Education Domain. I have keen 
   interest in Technology, Travelling, History, Mythology,
   Politics, Social Systems, Education, Rural Development etc.
-description_bn: > # this means to ignore newlines until "baseurl:"
-  সঞ্জয় রায় কোলকাতা-কেন্দ্রিক একজন মাইক্রোসফট সার্টিফায়েড ইনফরমেশন টেকনোলজিস্ট ।  
+
+keywords2: >- # this means to ignore newlines until "baseurl:"
+  Sanjoy, Sanjay, Sanjaya, Roy, Ray, Religion, Spiritual, Hinduism, Buddism, KarmaYoga, Karma Yoga, KarmYog, KarmaYog,
+  Moksha, Salvation, Freedom, Soul, Jyan yoga, Bhakti yoga, Nishkam Karma, Computer, 
+  Software, Website, Digital, Marketing, Technology, LAN, WAN, CCTV, Solar, Healthcare, 
+  Health Informatics, Vanaprashta, Senior Citizen, Old age home.
+
+
+description: > # this means to ignore newlines until "description_bn:"
+  My name is Sanjoy Roy. I am based in Kolkata, India. I am a 
+  Microsoft Certified Information Technologist and 
+  an Entrepreneur specialised in Health Informatics with 20 years 
+  of expertise in Healthcare and Education Domain. I have keen 
+  interest in Technology, Travelling, History, Mythology,
+  Politics, Social Systems, Education, Rural Development etc.
+
+description-bn: > # this means to ignore newlines until "baseurl:"
+  আমার নাম সঞ্জয় রায়। আমি কোলকাতা-কেন্দ্রিক একজন মাইক্রোসফট সার্টিফায়েড তথ্য 
+  প্রযুক্তিবিদ এবং একজন উদ্যোক্তা । আমি স্বাস্থ্য তথ্যবিজ্ঞানে  একজন বিশেষজ্ঞ । আমি গত ২০ বছর 
+  ধরে তথ্য প্রযুক্তিতে কাজ করছি । বিশেষত হেলথ কেয়ার এবং 
+  শিক্ষা ডোমেইনে । আমার আগ্রহের বিষয় হল প্রযুক্তি, ভ্রমণ, ইতিহাস, পুরাণ, রাজনীতি, সামাজিক ব্যবস্থা, 
+  শিক্ষা, পল্লী উন্নয়ন ইত্যাদি। 
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: sanjoyr
-github_username:  sanjoyr
+permalink: /:categories/:title.html
+
+# for sass file minification
+sass:
+  style: compressed
+
 
 # Build settings
 markdown: kramdown

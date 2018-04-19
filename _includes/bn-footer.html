@@ -1,0 +1,55 @@
+<footer id="footer">
+		<div class="footer-top">
+		  <div class="container">
+				<div class="row">	
+					<div class="col-lg-3 col-md-6 footer-info">
+						<h3>{{ site.title-bn }}</h3>
+						<p>{{ site.description-bn }}</p>
+					</div>
+	
+					<div class="col-lg-3 col-md-6 footer-links">
+						<h4>প্রয়োজনীয় লিংক</h4>
+						<ul>
+								{% for link in site.data.links %}
+								<li><i class="fas fa-angle-right"></i> <a href="{{ link.url }}">{{ link.title-bn }}</a></li>
+								{% endfor %}
+						</ul>
+					</div>
+	
+					<div class="col-lg-3 col-md-6 footer-contact">
+						<h4>যোগাযোগ করুন</h4>
+						<p>
+							<strong>ইমেইল:</strong> {{ site.email }}
+						</p>
+                        <p>
+                                <strong>ফোন নম্বর:</strong> {{ site.phone }}
+                        </p>
+                        <p>
+                                <strong>সামাজিক যোগাযোগ মাধ্যম:</strong>
+                        </p>
+
+
+						<div class="social-links">
+								{% for social in site.data.socials %}
+									<a href="{{ social.url }}" class="{{ social.title }}"><i class="fab fa-{{ social.title }}"></i></a>
+								{% endfor %}
+						</div>	
+			  	</div>
+	
+					<div class="col-lg-3 col-md-6 footer-newsletter">
+						<h4>কর্মযোগ নিউজলেটার</h4>
+						<p>{{ site.newsletter1 }}</p>
+						<p>{{ site.newsletter2 }}</p>
+
+						{% include aaa-subscribe.html %}
+					</div>	
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="short-text copyright">
+			{{ site.tagline-bn }}<br/>&copy; সঞ্জয় রায়, সর্বস্বত্ব সংরক্ষিত।
+		</div>
+	</div>
+</footer>

@@ -1,8 +1,8 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default-bn
-page-caption: রবি ঠাকুরের উক্তি
+layout: category
 category-filter: tagore-bn 
+lang: bn 
+title: রবি ঠাকুরের উক্তি
+intro:
+    রবীন্দ্র-সাহিত্য আমার অবসর সময়ের সঙ্গী। আমার ব্লগের এই অংশে আমি রবীন্দ্র-সাহিত্য থেকে আমার প্রিয় কিছু উক্তি সংগ্রহ করে রেখেছি নিজে মাঝে মধ্যে পড়ার জন্য এবং অন্যরাও যাতে পড়তে পারেন। 
 ---

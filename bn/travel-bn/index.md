@@ -1,8 +1,8 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default-bn
-page-caption: ভ্রমণ
+layout: category
 category-filter: travel-bn 
+lang: bn 
+title: ভ্রমণ ব্লগ
+intro:
+    আমার এই ভ্রমণ ব্লগ বিভাগে আপনাকে স্বাগতম! এইখানে আমি  ভ্রমণ বিষয়ক গল্প, প্রয়োজনীয় ভ্রমণ টিপস, ভ্রমণ ভিডিও, অনুপ্রেরণামূলক ফটোগ্রাফি শেয়ার করি। এটি আপনার মতো মানুষদের জন্য একটি জায়গা যারা ভ্রমণ করতে ভালোবাসেন। 
 ---

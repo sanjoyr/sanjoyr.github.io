@@ -1,8 +1,8 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default-bn
-page-caption: প্রযুক্তি ও ভ্রমণ ব্লগ
+layout: category
 category-filter: bn 
+lang: bn
+title: সঞ্জয় উবাচ
+intro:
+    ব্লগটির শিরোনাম হচ্ছে "সঞ্জয় উবাচ" যার মানে সঞ্জয়ের বর্ণনা। সঞ্জয় (অর্থ "বিজয়") প্রাচীন ভারতীয় মহাকাব্য মহাভারতের একটি চরিত্র। ঋষি ব্যাস তাকে দিব্য-দৃষ্টি দান করেছিলেন, যার সাহায্যে  তিনি ধৃতরাষ্টের কাছে কুরুক্ষেত্রের যুদ্ধের বর্ণনা করেছিলেন।
 ---
