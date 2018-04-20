@@ -1,46 +1,95 @@
-{% include base.html %}
-
-<!DOCTYPE html>
+{% include aaa-base.html %}
+<!doctype html>
 <html lang="en">
-    <head>
-        <title>{{ site.title }} - {{ page.title }}</title>
-        {% include head.html %}
-        
-        {% if page.description %}
-            <meta name="description" content="{{ page.description }}">
-        {% else %} 
-            <meta name="description" content="{{ site.description}}">
-        {% endif %}        
-    </head>
 
-    <body>
-		<!-- Wrapper -->
-			<div id="wrapper">
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<!-- Header -->
-								{% include header.html %}
+<head>
+    {% include aaa-head.html %}
+</head>
 
- 							<!-- Content -->
-								<section>
-									<header class="main">
-										<h1>{{ page.title }}</h1>
-									</header>
+<body>
+    {% if page.lang == 'bn'%}
+    {% include bn-nav.html %}
+    {% else %}
+    {% include en-nav.html %}
+    {% endif %}
 
-									<span class="image main"><img src="{{ page.title-image }}" alt="{{ page.title-image-alt }}" /></span>
+    <main role="main">
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-4">{{ page.title }}</h1>
+                 <p class="short-text">{{ page.excerpt }}</p>
 
-                                    {{ content }}
-								</section>
+                <p>
+                    {% if page.lang == 'bn'%}
+                    <a class="btn btn-primary btn-lg" href="#postdetail" role="button">{{ site.readmore-title-bn }} &raquo;</a>
+                    {% else %}
+                    <a class="btn btn-primary btn-lg" href="#postdetail" role="button">{{ site.readmore-title }} &raquo;</a>
+                    {% endif %}
+                </p>
+            </div>
+        </div>
 
-								{% include disqus.html %}
-						</div>
-					</div>
+        <section id="postdetail" class="post-container">
+            <article>
+                <h1>{{ page.title }}</h1>
+                <div>{{ content }}</div>
+            </article>
+            {% include disqus.html %}
+        </section>
 
-				<!-- Sidebar -->
-                    {% include sidebar.html %}
-			</div>
-		<!-- Scripts -->
-        {% include js.html %}
-    </body>
+        <hr class="featurette-divider">
+        <section id="products" class="post-container">
+            {% if page.lang == 'bn'%}
+            <h1>{{ site.recent-title-bn }}</h1>
+            {% else %}
+            <h1>{{ site.recent-title }}</h1>
+            {% endif %}
+            
+                <div class="features">
+                    <div class="container">
+                        <div class="row">
+                            {% assign cat = 'en' %}
+                            {% if page.lang == 'bn' %}
+                            {% assign cat = 'bn' %}
+                            {% endif %}
+
+                            {% for post in site.categories[cat] limit:10 %}
+
+                            {% assign icon = 'fas fa-edit' %}
+                            {% for postcat in post.categories %}
+                            {% for toipic in site.data.topics %}
+                            {% if postcat == toipic.name %}
+                            {% assign icon = toipic.iconname %}
+                            {% break %}
+                            {% endif %}
+                            {% endfor %}
+                            {% endfor %}
+
+                            <div class="col-md-6 box">
+                                <div class="icon">
+                                    <i class="{{ icon }}"></i>
+                                </div>
+                                <h4 class="title">
+                                    <a href="{{ post.url }}">{{ post.title }}</a>
+                                </h4>
+                                <p class="description">{{ post.content | truncate: 200 | strip_html }}</p>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        {% if page.lang == 'bn'%}
+        {% include bn-footer.html %}
+        {% else %}
+        {% include en-footer.html %}
+        {% endif %}
+    
+    </main>
+
+    {% include aaa-js.html %} 
+</body>
+
 </html>

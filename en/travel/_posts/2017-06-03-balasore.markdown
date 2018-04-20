@@ -1,8 +1,6 @@
 ---
-layout: post
 title:  "Balasore"
 tags: star
-title-image: "http://cdn.karmayoga.org.in/sr/travel/balasore/1.jpg"
 ---
 
 ## Panchalingeswar Temple

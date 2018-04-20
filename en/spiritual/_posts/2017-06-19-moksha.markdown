@@ -1,8 +1,6 @@
 ---
-layout: post
 title:  "Moksha"
 tags: star
-title-image: "http://cdn.karmayoga.org.in/sr/religious/1.jpg"
 ---
 *What is the aim of living being?* Freedom of Soul!
 

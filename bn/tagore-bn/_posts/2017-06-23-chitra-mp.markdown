@@ -1,7 +1,6 @@
 ---
-layout: post-bn
+lang: bn
 title:  "মৃত্যুর পরে"
-title-image: "http://cdn.karmayoga.org.in/sr/tagore/1.jpg"
 ---
 "আজ বাদে কাল যারে
 ভুলে যাবে একেবারে

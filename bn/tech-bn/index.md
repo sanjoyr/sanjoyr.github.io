@@ -1,8 +1,8 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: default-bn
-page-caption: প্রযুক্তিগত প্রবন্ধ
+layout: category
 category-filter: tech-bn 
+lang: bn 
+title: প্রযুক্তিগত প্রবন্ধ
+intro:
+    আমার এই ভ্রমণ ব্লগ বিভাগে আপনাকে স্বাগতম! একজন প্রযুক্তিবিদ হিসাবে আমি  চেষ্টা করি প্রযুক্তি বিষয়ে নিজেকে ওয়াকিবহাল রাখতে। আমার এই ব্লগে প্রযুক্তিগত বিষয় নিয়ে আলোচনার চেষ্টা করেছি এবং আপনাদের সঙ্গে শেয়ার করার চেষ্টা করেছি। যারা টেকনোলজির লোক নন, তাদের কাছে আমি প্রযুক্তিকে সহজতর করার জন্য গভীরভাবে আগ্রহী! আপনি টেকনোলজি বিষেয় আগ্রহী হলে, এই সেকশানে আমার প্রবন্ধগুলো দেখতে পারেন।
 ---

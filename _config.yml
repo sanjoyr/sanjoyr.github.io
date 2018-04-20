@@ -16,20 +16,20 @@
 title: Sanjoy Roy
 title-bn: সঞ্জয় রায়
 email: info@sanjoyroy.com
-phone: +91-9432500000
+phone: +91-9830446591
 
 tagline: 'Technologist and Entrepreneur: "Where the mind is without fear and the head is held high..."'
 tagline-bn: 'প্রযুক্তিবিদ এবং উদ্যোক্তা: "চিত্ত যেথা ভয়শূন্য, উচ্চ যেথা শির,..."'
 
 recent-title: Recent Posts
-recent-title-bn: সাম্প্রতিক পোস্ট
+recent-title-bn: সর্বশেষ পোস্ট
 archived-title: Archived Posts
 archived-title-bn: আর্কাইভ পোস্ট
 readmore-title: Read More
 readmore-title-bn: বিস্তারিত
 
 
-keywords1: >- # this means to ignore newlines until "keywords2:"
+keywords: >- # this means to ignore newlines until "keywords2:"
   My name is Sanjoy Roy. I am based in Kolkata, India. I am a 
   Microsoft Certified Information Technologist and 
   an Entrepreneur specialised in Health Informatics with 19 years 
@@ -37,7 +37,7 @@ keywords1: >- # this means to ignore newlines until "keywords2:"
   interest in Technology, Travelling, History, Mythology,
   Politics, Social Systems, Education, Rural Development etc.
 
-keywords2: >- # this means to ignore newlines until "baseurl:"
+keywords-bn: >- # this means to ignore newlines until "baseurl:"
   Sanjoy, Sanjay, Sanjaya, Roy, Ray, Religion, Spiritual, Hinduism, Buddism, KarmaYoga, Karma Yoga, KarmYog, KarmaYog,
   Moksha, Salvation, Freedom, Soul, Jyan yoga, Bhakti yoga, Nishkam Karma, Computer, 
   Software, Website, Digital, Marketing, Technology, LAN, WAN, CCTV, Solar, Healthcare, 
@@ -67,6 +67,13 @@ permalink: /:categories/:title.html
 sass:
   style: compressed
 
+defaults:
+-
+  scope:
+    path: "" # an empty string here means all files in the project
+    type: "posts" # previously `post` in Jekyll 2.2.
+  values:
+    layout: "post"
 
 # Build settings
 markdown: kramdown

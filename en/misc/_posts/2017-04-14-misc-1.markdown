@@ -1,6 +1,4 @@
 ---
-layout: post
 title:  "Coming Soon"
-title-image: "http://cdn.karmayoga.org.in/sr/misc/1.jpg"
 ---
 Coming Soon

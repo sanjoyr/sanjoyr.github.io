@@ -1,7 +1,9 @@
-# sanjoyr.github.io
-Blog of Sanjoy Roy
-
-## About Sanjoy Roy
+---
+layout: page
+title: Sanjoy Roy
+intro: 
+    Competent Performer with 20 Years of Pioneering Success in Delivering Optimal Solution Results, Growth and Business Value in High-growth Environments.
+---
 
 ### Software Design ~ ERP Development ~ Project Management
 
@@ -50,4 +52,3 @@ Microsoft® Certified IT Professional (Enterprise Administrator) with displayed 
 *	Business Desktop Deployment
 
 A thorough professional with solid experience in formulating robust integrated IT strategies while managing & leading teams for running a successful process operations and developing Business Continuity Plans, Procedures, SLAs and Service Standards for driving Business Service Excellence.
-

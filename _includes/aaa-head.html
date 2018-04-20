@@ -1,9 +1,14 @@
 {% include aaa-base.html %}
 
+{% if page.lang == 'bn' %}
+<title>{{ site.title-bn }} - {{ page.title }}</title>
+<meta name="description" content="{{ page.intro }} {{ page.excerpt }} {{ site.description-bn }}">
+<meta name="keywords" content="{{ site.keywords-bn }}" >
+{% else %}
 <title>{{ site.title }} - {{ page.title }}</title>
-
-<meta name="description" content="{{ site.about2 }}, {{ page.intro }}">
-<meta name="keywords" content="{{ site.keywords1 }}, {{ site.keywords2 }}" >
+<meta name="description" content="{{ page.intro }} {{ page.excerpt }} {{ site.description }}">
+<meta name="keywords" content="{{ site.keywords }}" >
+{% endif %}
 
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="http://sanjoyroy.com/" />
@@ -23,24 +28,14 @@
 <meta name="msapplication-config" content="{{ base }}/assets/favicon/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 
-
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
 
-<!-- for new customization any one -->
-
 <!-- multi font for mulitple languages -->
 <link href="https://fonts.googleapis.com/css?family=Quattrocento|Roboto" rel="stylesheet">
 
-<!-- font for latin only -->
-<!-- <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Quattrocento" rel="stylesheet"> -->
-
-<!-- for logo font -->
-<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:700" rel="stylesheet">
-
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-
 
 <!-- Custom styles for this template -->
 <link href="{{ base }}/assets/style.css" rel="stylesheet">

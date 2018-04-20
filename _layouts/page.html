@@ -1,0 +1,58 @@
+{% include aaa-base.html %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    {% include aaa-head.html %}
+</head>
+
+<body>
+    {% if page.lang == 'bn'%}
+    {% include bn-nav.html %}
+    {% else %}
+    {% include en-nav.html %}
+    {% endif %}
+
+    <main role="main">
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-4">{{ page.title }}</h1>
+                <p class="short-text">{{ page.intro }}</p>
+                <p>
+                    {% if page.lang == 'bn'%}
+                    <a class="btn btn-primary btn-lg" href="#postdetail" role="button">{{ site.readmore-title-bn }} &raquo;</a>
+                    {% else %}
+                    <a class="btn btn-primary btn-lg" href="#postdetail" role="button">{{ site.readmore-title }} &raquo;</a>
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+
+        <section id="postdetail" class="post-container">
+            <article>
+                <h1>{{ page.title }}</h1>
+                <div>{{ content }}</div>
+            </article>
+        </section>
+
+
+        <hr class="featurette-divider">
+        {% if page.lang == 'bn'%}
+        {% include bn-contact.html %}
+        {% else %}
+        {% include en-contact.html %}
+        {% endif %}
+
+        {% if page.lang == 'bn'%}
+        {% include bn-footer.html %}
+        {% else %}
+        {% include en-footer.html %}
+        {% endif %}
+    
+    </main>
+
+    {% include aaa-js.html %} 
+</body>
+
+</html>

@@ -1,7 +1,5 @@
 ---
-layout: post
 title:  "What is KarmaYoga"
-title-image: "http://cdn.karmayoga.org.in/sr/religious/1.jpg"
 ---
 *System of ethics and religion intended to attain freedom through unselfishness, and by good works*
 

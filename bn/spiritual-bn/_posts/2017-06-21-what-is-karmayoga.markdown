@@ -1,7 +1,6 @@
 ---
-layout: post-bn
+lang: bn
 title:  "কর্মযোগ"
-title-image: "http://cdn.karmayoga.org.in/sr/religious/1.jpg"
 ---
 *কর্মযোগ নিঃস্বার্থপরতা ও সৎকর্ম দ্বারা মুক্তি লাভ করিবার একটি ধর্ম ও নীতিপ্রনালী*
 

@@ -1,8 +1,7 @@
 ---
-layout: post-bn
+lang: bn
 title:  "আত্মার মুক্তি"
 tags: star
-title-image: "http://cdn.karmayoga.org.in/sr/religious/1.jpg"
 ---
 *জীবের মূল লক্ষ্য কি?* আত্মার মুক্তি।
 
