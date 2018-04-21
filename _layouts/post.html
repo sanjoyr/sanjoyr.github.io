@@ -18,8 +18,12 @@
         <div class="jumbotron">
             <div class="container">
                 <h1 class="display-4">{{ page.title }}</h1>
+                 {% if page.intro %}
+                 <p class="short-text">{{ page.intro }}</p>
+                 {% else %}
                  <p class="short-text">{{ page.excerpt }}</p>
-
+                 {% endif %}
+             
                 <p>
                     {% if page.lang == 'bn'%}
                     <a class="btn btn-primary btn-lg" href="#postdetail" role="button">{{ site.readmore-title-bn }} &raquo;</a>
@@ -73,7 +77,11 @@
                                 <h4 class="title">
                                     <a href="{{ post.url }}">{{ post.title }}</a>
                                 </h4>
-                                <p class="description">{{ post.content | truncate: 200 | strip_html }}</p>
+                                {% if post.intro %}
+                                <p class="description">{{ post.intro | truncate: site.intro-len }}</p>
+                                {% else %}
+                                <p class="description">{{ post.content | truncate: site.intro-len | strip_html }}</p>
+                                {% endif %}
                             </div>
                             {% endfor %}
                         </div>

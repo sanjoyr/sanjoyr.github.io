@@ -1,0 +1,22 @@
+---
+tags: star
+title: Ross And Smith Island
+intro:
+    The most famous sight to behold at North Andaman is without a doubt the majestic twin islands of Ross and Smith connected by a thin fifty meter long sand bar. This silky white sand bar descends inside the sea at times of high tide and surfaces up again during low tide. The bar divides the shallow swimming area on one side and some amazing snorkeling on the other. The warm waters are crystal clear and the untamed virgin beaches are the most picture perfect ones you will see on the islands. The best part is that the beach is seldom crowded and most of the time you can cherish the whole sight by yourself. Tropical forests surround the beach and the inner islands are a preferred place for nature trail hiking. Smith Island has limited facilities; spacious bamboo huts with plenty of shade, changing rooms and toilets can be found.
+---
+
+The most famous sight to behold at North Andaman is without a doubt the majestic twin islands of Ross and Smith connected by a thin fifty meter long sand bar. This silky white sand bar descends inside the sea at times of high tide and surfaces up again during low tide. The bar divides the shallow swimming area on one side and some amazing snorkeling on the other. The warm waters are crystal clear and the untamed virgin beaches are the most picture perfect ones you will see on the islands. The best part is that the beach is seldom crowded and most of the time you can cherish the whole sight by yourself. Tropical forests surround the beach and the inner islands are a preferred place for nature trail hiking. Smith Island has limited facilities; spacious bamboo huts with plenty of shade, changing rooms and toilets can be found.
+
+
+### Some of the Phtotos taken myself
+
+![The sheds at Ross and Smith Island, Diglipur, North Andaman, AN, India](https://lh3.googleusercontent.com/6F0uxJBsVMgQByeBM4sjbbyPo-Bq6OfgZfxbdX11cVIcN4sJNvjzfyyH-34ft4e9SfO5TqXmrUNZTa-fsAHeRPpZ9y2-vZjajKQMhoU2lAExVXTIptE2wCx2HLtLF1irIMiDJmoxgIgTjbmoi3xUqA79BvSVjYsiC-qubooAeLB_bRKnpVVmfqp09Eu5ZuTYJk4ufoILZ-r1w4tpxXJRDgZBAxkwxka7UmIvE8hz41NkSRI3RseThdxMFdxfaLfMMH04SVe6oakQANvi6okwLXOguMjr1HZqSlBOPAnkc4Uq6Lr_z3cuVERNPACypSB7-yQjyaaUHtGGwKRfrAoAHMEvv0zeENYPRbFEqOS_3lQM6KLxg5reESBRNyLm62Obfm-D3WRx65AcFK_brbMNrKxh2mJm2SDLCQTUFLzq07TeC7RJJGnfLkwHlwtwScg3MqrMgC0NlcIeXJ7iwcNEcaTzVIPyRAGs3PomDSQLYdbEq2XxJntBie3Tcu6dq9kHDMp-8VDxqUAwSAxiPy2xHb12wbZYoTgsG9T435LJUn3qMMdcR0JunOrtyx1VLEVretKcBGxt0gUP8UZMTNLVEVh_-0_BP-XRXHJd10VH=w1024-h768-no)
+The sheds at Ross and Smith Island, Diglipur, North Andaman, AN, India
+
+
+![Crystal clear water at Ross and Smith Island, Diglipur, North Andaman, AN, India](https://lh3.googleusercontent.com/m_e6VDLHw2Y6iULJqtZinrs2RMd-p6FT2htaKwMZXFtpxh6dBPZLpVAkrf0yCy0fyAAeoOcKwUZLtWS80zVsyLVryHXC_fQHqzztu3bpmGp4FxHGkyFE7ByYkNrODLdDHFx96U2ot1IOkXYT7YjGZWL6j0e6_UiOIkk2ac0t_wqifJtfOQekw388p4_qguTjvX3jatDLtxMkvZTO1Paly0jXdEUHLWiF-rZ9A95UyvWgBAVn5i4XbLE_9mlbRGdQeIWYxqMVS7AgXJmoArO1urBQ0ReUGawAwObKzdNB2XrYA-LRik0-3JAIAkz6umG7aiZGecOVgzGUDb-treQesLbo0Edaut_ZbV9szqtwlvK-gMk_qQtejDYPyisKnXRT7ZRwGwvhBR_XYI7DIyG-FiOrVXKcSO2o1BJ9Ta1plZP_X8ob7DCMzCXF2RU5gkZLE7Z8AcMAz-zU8gT0wtlybq5YkVlBo3nlDxcf8tiOfBWUyRoL1DYXUKtzkSa6M1jauv2KLWt74nKrR_szNEw20f_gEgXmuQcDVfAb01_3bUMUjXpgJ9G4Bzj0GghmbT0Nj24ONmz0VQo5VVjR35H4nHVVYNxhZCJ7zwBloiE-=w1024-h768-no)
+Crystal clear water at Ross and Smith Island, Diglipur, North Andaman, AN, India
+
+
+![The land bridge at Ross and Smith Island, Diglipur, North Andaman, AN, India](https://lh3.googleusercontent.com/PLwshQNvspHbDSkuU2zHtvlKO68-aOERfGpS-bu7mm1DZ3FdoJtoVe4q6aEQlDPAbYFQ58JGRs_KXZwXeRaLw7UzOnMNiw-JzBqJCthtdyoFwXqXXIOA1XaVIr6BIs-sylKtfSs0uqJo7-vlZZxYKd6IOGn3_vLaW8epfqZyEgKG9-d3EnvZx4n4G4cx0pG9TOu10q6towjI_ZO4HCKeJXg-ddI9oaDdZU6Znl7OMqYlTRNEWF5HE-J2k9wBjZ4NUfSA6IqXNwNCH3dgKdtwf91vtPU3_iZ-YZnHIj5TrczTOvI4el6Y0CFuMGmjWHYx7lzGx1TnHrMThWINamC7gHWFGD93zdfDKlGFIetfS1W7bHKz9GEmzPK3kS9085cUO3GqtaExsA1AZi8E6kJPggK09DYOA1hdw1B2WUj3lDSyfd70tV4mIFQeMWTQ3O5v4JdR1WMp1K833wIDHH0ebsGChktvZBlturm5TgZBm1uD8DhYw-02-f3NO4BIfEZWmzzmQdvDtm4oxzU-ru-seyD4nrzZDuqdpBSDJ8ciyxRCvJY2fdIEdfcd10sMWTh1kItuQ_9wy0bNxs8Hs38J5pyQVqisIm82kcquamws=w1024-h768-no)
+The land bridge at Ross and Smith Island, Diglipur, North Andaman, AN, India

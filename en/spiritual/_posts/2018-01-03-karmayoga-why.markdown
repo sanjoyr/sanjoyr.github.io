@@ -1,0 +1,17 @@
+---
+title:  Why to practice Karma Yoga
+intro:
+   What does it say? “Work incessantly, but give up all attachment to work.” Do not identify yourself with anything. Hold your mind free. All this that you see, the pains and the miseries are but the necessary conditions of this world; poverty and wealth and happiness are but momentary; they do not belong to our real nature at all. Our nature is far beyond misery and happiness, beyond every object of the senses, beyond the imagination; and yet we must go on working all the time. “Misery comes through attachment, not through work.” As soon as we identify ourselves with the work we do, we feel miserable; but if we do not identify ourselves with it we do not feel that misery. ...(Swami Vivekananda, Karma Yoga, Chapter 7)
+---
+
+### Misery comes through attachment
+
+>What does it say? “Work incessantly, but give up all attachment to work.” Do not identify yourself with anything. Hold your mind free. All this that you see, the pains and the miseries are but the necessary conditions of this world; poverty and wealth and happiness are but momentary; they do not belong to our real nature at all. Our nature is far beyond misery and happiness, beyond every object of the senses, beyond the imagination; and yet we must go on working all the time. “Misery comes through attachment, not through work.” As soon as we identify ourselves with the work we do, we feel miserable; but if we do not identify ourselves with it we do not feel that misery. ...(Swami Vivekananda, Karma Yoga, Chapter 7)
+
+### To come out of bondage
+
+>If we give up our attachment to this little universe of the senses, or of the mind, we shall be free immediately. The only way to come out of bondage is to go beyond the limitations of law, to go beyond causation. (Swami Vivekananda, Karma Yoga, Chapter 7) 
+
+### Making use of all the bondages themselves to break those very bondages
+
+>But it is a most difficult thing to give up the clinging to this universe; few ever attain to that. There are two ways to do that, mentioned in our books. One is called the ‘neti, neti’ (not this, not this), the other is called the ‘iti’ (this); the former is the negative, and the latter is the positive way. The negative way is the most difficult. It is only possible to the men of the very highest, exceptional minds and gigantic wills who simply stand up and say, “No, I will not have this,” and the mind and body obey their will, and they come out successful. But such people are very rare. The vast majority of mankind choose the positive way, the way through the world, making use of all the bondages themselves to break those very bondages. This is also a kind of giving up; only it is done slowly and gradually, by knowing things, enjoying things and thus obtaining experience, and knowing the nature of things until the mind lets them all go at last and becomes unattached. The former way of obtaining non-attachment is by reasoning, and the latter way is through work and experience. The first is the path of Jnana-Yoga, and is characterised by the refusal to do any work; the second is that of Karma-Yoga, in which there is no cessation from work. Every one must work in the universe. Only those who are perfectly satisfied with the Self, whose desires do not go beyond the Self, whose mind never strays out of the Self, to whom the Self is all in all, only those do not work. The rest must work." (Swami Vivekananda, Karma Yoga, Chapter 7) 

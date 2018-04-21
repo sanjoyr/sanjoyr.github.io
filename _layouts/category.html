@@ -74,8 +74,11 @@
                                 <h4 class="title">
                                     <a href="{{ post.url }}">{{ post.title }}</a>
                                 </h4>
-                                <p class="description">{{ post.content | truncate: 200 | strip_html }}</p>
-                            </div>
+                                {% if post.intro %}
+                                <p class="description">{{ post.intro | truncate: site.intro-len }}</p>
+                                {% else %}
+                                <p class="description">{{ post.content | truncate: site.intro-len | strip_html }}</p>
+                                {% endif %}                            </div>
                             {% endfor %}
                         </div>
                     </div>
